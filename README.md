@@ -1,17 +1,22 @@
 #mongodb_osm
+<center><img src="./edmonton_results/edmonton_osm.png" width=400></center>
+
+
 To run against the example dataset type in the terminal:
 
-   cd edmonton_results
-   python ./submission.py
+   ```
+cd edmonton_results
+python ./submission.py
+```
 
 To see further options, type:
 
-   python ./submission.py -h
+   `python ./submission.py -h`
 
 The results of running the submission.py script on data from the
 entire Edmonton region of the Open Street Map can be found in the
 directory:
-
+```
  ./edmonton_results
    |
    |--- edmonton_size_result.json
@@ -23,6 +28,7 @@ directory:
    |--- edmonton_amenity_result.json
    |__
 
+```
 Running submission.py will save similar JSON results for the example
 dataset.
 
